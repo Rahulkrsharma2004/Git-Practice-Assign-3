@@ -1,13 +1,6 @@
 let num = 20
 let count = 0
 for(let i = 1 ; i <= num ; i++){
-    if(num % i == 0){
-        co
-    }
+    (num % i == 0)?count++:null;
 }
-if(count == 2){
-    console.log(prime)
-}
-else{
-    console.log("Not Prime")
-}
+(count == 2)?console.log("Prime"):console.log("Not Prime");
